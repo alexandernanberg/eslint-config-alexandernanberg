@@ -18,7 +18,8 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "npm run lint"
   },
   "dependencies": {
     "babel-eslint": "^8.2.3",
@@ -30,7 +31,9 @@
     "eslint-plugin-react": "^7.10.0"
   },
   "devDependencies": {
-    "prettier": "^1.12.1"
+    "eslint": "^4.9.0",
+    "prettier": "^1.12.1",
+    "semantic-release": "^15.9.5"
   },
   "peerDependencies": {
     "eslint": ">=4"

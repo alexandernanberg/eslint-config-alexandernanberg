@@ -5,15 +5,15 @@ module.exports = {
     require.resolve('eslint-config-prettier/react'),
   ],
   parser: 'babel-eslint',
-  plugins: ['react', 'prettier'],
+  plugins: ['prettier'],
   env: {
     browser: true,
   },
   rules: {
     'comma-dangle': ['error', 'always-multiline'],
     'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
-    'react/jsx-filename-extension': 0,
-    'react/prop-types': 0,
+    'react/jsx-filename-extension': 'off',
+    'react/prop-types': 'off',
     'react/sort-comp': [
       'error',
       {

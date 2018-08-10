@@ -1,6 +1,6 @@
 # eslint-config-alexandernanberg
 
-> Eslint rules accoring to my personal preference
+> Eslint rules according to my personal preference
 
 ## License
 MIT

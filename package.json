@@ -4,10 +4,7 @@
   "version": "1.0.1",
   "author": "Alexander Nanberg <alex.nanberg@hotmail.com> (https://alexandernanberg.com)",
   "description": "ESLint rules according to my personal preference",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/alexandernanberg/eslint-config-alexandernanberg"
-  },
+  "repository": "github:alexandernanberg/eslint-config-alexandernanberg",
   "bugs": {
     "url": "https://github.com/alexandernanberg/eslint-config-alexandernanberg/issues"
   },

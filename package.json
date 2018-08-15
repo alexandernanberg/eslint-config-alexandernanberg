@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-alexandernanberg",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Alexander Nanberg <alex.nanberg@hotmail.com> (https://alexandernanberg.com)",
   "description": "ESLint rules according to my personal preference",
   "repository": "github:alexandernanberg/eslint-config-alexandernanberg",
@@ -21,7 +21,7 @@
   "dependencies": {
     "babel-eslint": "^8.2.3",
     "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-prettier": "^3.0.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-prettier": "^2.6.0",
@@ -29,8 +29,7 @@
   },
   "devDependencies": {
     "eslint": "^4.9.0",
-    "prettier": "^1.12.1",
-    "semantic-release": "^15.9.5"
+    "prettier": "^1.12.1"
   },
   "peerDependencies": {
     "eslint": ">=4"

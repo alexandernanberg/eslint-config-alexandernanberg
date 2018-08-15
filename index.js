@@ -12,6 +12,8 @@ module.exports = {
   rules: {
     'comma-dangle': ['error', 'always-multiline'],
     'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+    "jsx-a11y/label-has-for": ["off"],
+    "jsx-a11y/label-has-associated-control": ["error"],
     'react/jsx-filename-extension': 'off',
     'react/prop-types': 'off',
     'react/sort-comp': [

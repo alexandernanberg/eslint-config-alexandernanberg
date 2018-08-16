@@ -16,7 +16,7 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/prop-types': 'off',
     'react/sort-comp': [
-      'error',
+      'off',
       {
         order: [
           'static-methods',

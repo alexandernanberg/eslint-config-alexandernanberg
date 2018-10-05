@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-alexandernanberg",
   "license": "MIT",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "author": "Alexander Nanberg <alex.nanberg@hotmail.com> (https://alexandernanberg.com)",
   "description": "ESLint rules according to my personal preference",
   "repository": "github:alexandernanberg/eslint-config-alexandernanberg",
@@ -22,12 +22,12 @@
     "test": "npm run lint"
   },
   "dependencies": {
-    "babel-eslint": "^9.0.0",
+    "babel-eslint": "^10.0.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1"
   },
   "devDependencies": {

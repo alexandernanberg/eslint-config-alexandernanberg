@@ -5,11 +5,15 @@ module.exports = {
     require.resolve('eslint-config-prettier/react'),
   ],
   parser: 'babel-eslint',
-  plugins: ['prettier'],
+  plugins: [
+    require.resolve('eslint-plugin-prettier'),
+    require.resolve('eslint-plugin-react-hooks'),
+  ],
   env: {
     browser: true,
   },
   rules: {
+    'react-hooks/rules-of-hooks': 'error',
     'comma-dangle': ['error', 'always-multiline'],
     'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
     // Depricated (remove when it's gone from airbnb's config)

@@ -5,10 +5,7 @@ module.exports = {
     require.resolve('eslint-config-prettier/react'),
   ],
   parser: 'babel-eslint',
-  plugins: [
-    require.resolve('eslint-plugin-prettier'),
-    require.resolve('eslint-plugin-react-hooks'),
-  ],
+  plugins: ['prettier', 'react-hooks'],
   env: {
     browser: true,
   },

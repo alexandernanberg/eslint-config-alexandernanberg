@@ -13,6 +13,7 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'comma-dangle': ['error', 'always-multiline'],
     'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+    'import/prefer-default-export': 'off',
     // Depricated (remove when it's gone from airbnb's config)
     'jsx-a11y/label-has-for': 'off',
     // Maybe enable once it's less buggy

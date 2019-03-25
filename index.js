@@ -10,11 +10,8 @@ module.exports = {
     browser: true,
   },
   rules: {
-    'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
-    'comma-dangle': ['error', 'always-multiline'],
     'import/prefer-default-export': 'off',
-    // Depricated (remove when it's gone from airbnb's config)
-    'jsx-a11y/label-has-for': 'off',
+    'jsx-a11y/label-has-for': 'off', // Deprecated (remove when it's gone from airbnb's config)
     'react-hooks/rules-of-hooks': 'error',
     'react/destructuring-assignment': 'off',
     'react/jsx-filename-extension': 'off',

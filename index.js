@@ -18,5 +18,6 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/prop-types': 'off',
     'react/sort-comp': 'off',
+    'react/require-default-props': 'off',
   },
 }

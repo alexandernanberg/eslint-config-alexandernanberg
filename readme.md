@@ -3,4 +3,5 @@
 > Eslint rules according to my personal preference
 
 ## License
+
 MIT

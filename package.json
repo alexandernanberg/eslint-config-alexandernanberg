@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-alexandernanberg",
   "license": "MIT",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "author": "Alexander Nanberg <alex.nanberg@hotmail.com> (https://alexandernanberg.com)",
   "description": "ESLint rules according to my personal preference",
   "repository": "github:alexandernanberg/eslint-config-alexandernanberg",

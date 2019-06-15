@@ -12,7 +12,7 @@ module.exports = {
   rules: {
     'import/prefer-default-export': 'off',
     'jsx-a11y/label-has-for': 'off', // Deprecated (remove when it's gone from airbnb's config)
-    'prettier/prettier': 'error',
+    'prettier/prettier': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'react/destructuring-assignment': 'off',

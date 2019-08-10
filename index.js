@@ -11,14 +11,14 @@ module.exports = {
   },
   rules: {
     'import/prefer-default-export': 'off',
-    'jsx-a11y/label-has-for': 'off', // Deprecated (remove when it's gone from airbnb's config)
     'prettier/prettier': 'warn',
-    'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    'react-hooks/rules-of-hooks': 'error',
     'react/destructuring-assignment': 'off',
     'react/jsx-filename-extension': 'off',
+    'react/jsx-props-no-spreading': 'off',
     'react/prop-types': 'off',
-    'react/sort-comp': 'off',
     'react/require-default-props': 'off',
+    'react/sort-comp': 'off',
   },
 }

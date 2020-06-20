@@ -1,4 +1,4 @@
-name: Publish package
+name: Run tests
 
 on: [pull_request]
 
@@ -10,9 +10,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-          
       - name: Install dependencies
         run: yarn
-        
       - name: Run tests
         run: yarn test

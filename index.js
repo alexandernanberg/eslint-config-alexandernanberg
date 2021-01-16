@@ -18,6 +18,7 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off',
     'react/require-default-props': 'off',
     'react/sort-comp': 'off',
   },

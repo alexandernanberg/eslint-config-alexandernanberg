@@ -2,9 +2,8 @@ module.exports = {
   extends: [
     require.resolve('eslint-config-airbnb'),
     require.resolve('eslint-config-prettier'),
-    require.resolve('eslint-config-prettier/react'),
   ],
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   plugins: ['prettier', 'react-hooks'],
   env: {
     browser: true,

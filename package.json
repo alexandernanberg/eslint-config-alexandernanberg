@@ -15,7 +15,10 @@
   ],
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "typescript.js",
+    "jest.js",
+    "react.js"
   ],
   "scripts": {
     "format": "prettier --write \"**/*.{js,md,yml}\"",

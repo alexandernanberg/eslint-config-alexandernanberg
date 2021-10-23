@@ -26,6 +26,7 @@
     "test": "npm run lint"
   },
   "dependencies": {
+    "@babel/core": "^7.14.3",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",
     "@babel/eslint-parser": "^7.14.4",
@@ -41,7 +42,6 @@
     "read-pkg-up": "^7.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.3",
     "eslint": "^7.0.0",
     "prettier": "^2.0.0",
     "semantic-release": "^18.0.0"

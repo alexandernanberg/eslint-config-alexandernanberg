@@ -48,5 +48,10 @@
   },
   "peerDependencies": {
     "eslint": ">= 7"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
   }
 }

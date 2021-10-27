@@ -8,6 +8,7 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
     'plugin:react-hooks/recommended',
     'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
     'prettier',
   ],
   settings: {

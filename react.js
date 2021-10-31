@@ -15,6 +15,11 @@ module.exports = {
     react: {
       version: 'detect',
     },
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx'],
+      },
+    },
   },
   rules: {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md

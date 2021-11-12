@@ -43,7 +43,7 @@
     "read-pkg-up": "^7.0.1"
   },
   "devDependencies": {
-    "eslint": "^7.0.0",
+    "eslint": "^8.0.0",
     "prettier": "^2.0.0",
     "semantic-release": "^18.0.0"
   },

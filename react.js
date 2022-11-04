@@ -1,8 +1,4 @@
 module.exports = {
-  parser: '@babel/eslint-parser',
-  parserOptions: {
-    requireConfigFile: false,
-  },
   extends: [
     'plugin:import/react',
     'plugin:jsx-a11y/recommended',
@@ -14,11 +10,6 @@ module.exports = {
   settings: {
     react: {
       version: 'detect',
-    },
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.jsx'],
-      },
     },
   },
   rules: {

@@ -22,6 +22,8 @@ module.exports = {
       rules: {
         //https://github.com/typescript-eslint/typescript-eslint/issues/2483
         'no-shadow': 'off',
+        // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/no-empty-interface.md
+        '@typescript-eslint/no-empty-interface': 'off',
         // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/no-shadow.md
         '@typescript-eslint/no-shadow': 'error',
         // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/consistent-type-imports.md

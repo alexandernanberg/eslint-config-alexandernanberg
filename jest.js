@@ -17,6 +17,7 @@ try {
   // ignore error
 }
 
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
   extends: [
     // https://github.com/jest-community/eslint-plugin-jest

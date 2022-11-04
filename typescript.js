@@ -1,9 +1,12 @@
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
   settings: {
+    'import/parsers': {
+      [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
+    },
     'import/resolver': {
-      typescript: {},
-      node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      [require.resolve('eslint-import-resolver-typescript')]: {
+        alwaysTryTypes: true,
       },
     },
   },

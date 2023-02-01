@@ -21,7 +21,7 @@
     "typescript.js",
     "jest.js"
   ],
-  "packageManager": "pnpm@7.21.0",
+  "packageManager": "pnpm@7.26.3",
   "scripts": {
     "format": "prettier --write \"**/*.{js,md,yml}\"",
     "lint": "eslint .",

@@ -15,6 +15,7 @@ module.exports = {
       files: ['*.ts', '*.tsx'],
       parserOptions: {
         parser: '@typescript-eslint/parser',
+        project: true,
       },
       extends: [
         'plugin:import/typescript',

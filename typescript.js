@@ -18,8 +18,8 @@ module.exports = {
       },
       extends: [
         'plugin:import/typescript',
-        'plugin:@typescript-eslint/eslint-recommended-type-checked',
-        'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/eslint-recommended',
+        'plugin:@typescript-eslint/recommended-type-checked',
         'prettier',
       ],
       rules: {

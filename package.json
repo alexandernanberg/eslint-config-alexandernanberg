@@ -45,7 +45,7 @@
   "devDependencies": {
     "eslint": "^8.47.0",
     "prettier": "^3.0.2",
-    "semantic-release": "^21.0.7",
+    "semantic-release": "^22.0.0",
     "typescript": "^5.1.6"
   },
   "peerDependencies": {

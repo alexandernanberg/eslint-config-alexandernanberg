@@ -10,6 +10,10 @@ module.exports = {
     node: true,
   },
   rules: {
+    // disallow expressions where the operation doesn't affect the value
+    // https://eslint.org/docs/rules/no-constant-binary-expression
+    'no-constant-binary-expression': 'error',
+
     // require let or const instead of var
     // https://eslint.org/docs/rules/no-var
     'no-var': 'error',

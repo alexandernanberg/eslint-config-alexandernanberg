@@ -22,5 +22,7 @@ module.exports = {
     'react/self-closing-comp': 'error',
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
     'react/jsx-boolean-value': ['error', 'never'],
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
+    'react/prop-types': 'off',
   },
 }

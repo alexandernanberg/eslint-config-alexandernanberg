@@ -13,7 +13,10 @@ module.exports = {
       version: 'detect',
     },
   },
+  plugins: ['eslint-plugin-react-compiler'],
   rules: {
+    // https://github.com/facebook/react/tree/main/compiler/packages/eslint-plugin-react-compiler
+    'react-compiler/react-compiler': 'error',
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
     'react/display-name': ['off', { ignoreTranspilerName: false }],
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/button-has-type.md

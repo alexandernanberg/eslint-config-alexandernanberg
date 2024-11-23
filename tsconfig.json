@@ -1,0 +1,15 @@
+/* Visit https://aka.ms/tsconfig.json to read more about this file */
+{
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "noUncheckedIndexedAccess": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "resolveJsonModule": true
+  },
+  "include": ["."],
+  "exclude": ["node_modules"]
+}

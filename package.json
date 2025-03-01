@@ -13,7 +13,7 @@
     "eslintconfig",
     "styleguide"
   ],
-  "packageManager": "pnpm@9.15.4",
+  "packageManager": "pnpm@10.5.2",
   "type": "module",
   "exports": {
     "./base": "./base.js",

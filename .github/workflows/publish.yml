@@ -15,7 +15,7 @@ jobs:
         with:
           node-version-file: '.nvmrc'
 
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v4
 
       - name: Get pnpm store directory
         id: pnpm-cache
